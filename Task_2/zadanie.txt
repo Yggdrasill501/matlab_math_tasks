@@ -1,0 +1,4 @@
+Funkce INV_PRIME_SUM, ktera ze zadaneho n urci soucet prevracenych hodnot prvnich n prvocisel.
+Tuto funkci vyuzijete v jine funkci PLOT_INV_PRIME_SUM, 
+ktera s vyuzitim loglog nakresli zavislost souctu na poctu clenu od jedne do nmax (jde o graf posloupnosti castecnych souctu te posloupnosti)
+

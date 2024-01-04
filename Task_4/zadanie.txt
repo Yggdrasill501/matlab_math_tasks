@@ -1,0 +1,2 @@
+Pomoci generatoru nahodnych cisel urcete objem parabolicke anteny (rotacni paraboloid jako nadoba na vodu) o prumeru d a hloubce h s vyuzitim strelby do ctyrbokeho hranolu o hrane d a vysce h. Strelbu opakujte N krat, nakreslete ve 3D ten paraboloid i nahodne body a ten odhad objemu.
+

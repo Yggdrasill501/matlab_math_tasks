@@ -1,0 +1,2 @@
+Funkce CTYRSTEN, ktera ze sesti delek hran a,b,c,d,e urci, zda ctyrsten existuje, tj vrati true nebo false
+

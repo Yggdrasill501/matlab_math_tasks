@@ -1,0 +1,3 @@
+Vytvorte funkci CYKLOIDA ktera usnadni nakresleni uzavrene plochy vznikle rotaci jedne periody cykloidy
+kolem osy x (vysledkem je jednobarevna hladka plocha, ktera je zobrazena pomoci osvetlovaciho modelu)
+
