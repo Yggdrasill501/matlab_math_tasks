@@ -12,11 +12,11 @@ The [INIT](https://github.com/Yggdrasill501/octave_matlab_tasks/blob/main/INIT.s
 
 # Task One 
 *The [CTYRSTEN](https://github.com/Yggdrasill501/octave_matlab_tasks/blob/main/Task_1/CTYRSTEN.m)) function, which from the six edge lengths a,b,c,d,e, determines whether a quadrilateral exists, i.e. returns true or false*
-<code>
+``
 function exists = CTYRSTEN(a, b, c, d, e, f)   
     exists = (a + b > c) && (a + c > b) && (b + c > a) && ...
              (a + d > e) && (a + e > d) && (d + e > a) && ...
              (b + d > f) && (b + f > d) && (d + f > b) && ...
              (c + e > f) && (c + f > e) && (e + f > c);
 end
-</code>
+``
