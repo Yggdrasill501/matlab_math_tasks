@@ -1,0 +1,4 @@
+The INV_PRIME_SUM function, which determines the sum of the inverted values of the first n prime numbers from the specified n.
+You use this function in another function PLOT_INV_PRIME_SUM,
+which, using loglog, drew the dependence of the sum on the number of terms from one to nmax (it is a graph of the sequence of partial sums of that sequence)
+
