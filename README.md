@@ -11,7 +11,7 @@ The rest of the project and the mathlab tasks are devided to folders with tests 
 The [INIT](https://github.com/Yggdrasill501/octave_matlab_tasks/blob/main/INIT.sh) file is there in case of requriments.
 
 # Task One 
-*The [CTYRSTEN](https://github.com/Yggdrasill501/octave_matlab_tasks/blob/main/Task_1/CTYRSTEN.m)) function, which from the six edge lengths a,b,c,d,e, determines whether a quadrilateral exists, i.e. returns true or false*
+*The [CTYRSTEN](https://github.com/Yggdrasill501/octave_matlab_tasks/blob/main/Task_1/CTYRSTEN.m) function, which from the six edge lengths a,b,c,d,e, determines whether a quadrilateral exists, i.e. returns true or false*
 ```
 function exists = CTYRSTEN(a, b, c, d, e, f)   
     exists = (a + b > c) && (a + c > b) && (b + c > a) && ...
