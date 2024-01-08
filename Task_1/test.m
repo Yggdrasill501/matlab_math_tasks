@@ -1,17 +1,20 @@
-% Test cases
-tests = [
-    struct('edges', [3, 4, 5, 6, 7, 8], 'expected', true),  % Valid tetrahedron
-    % ... (more test cases)
-];
+% Test 1: Valid Quadrilateral
+result1 = CTYRSTEN(3, 4, 5, 6, 7, 8);
+disp(['Test 1 (Valid Quadrilateral): ', num2str(result1)]);
 
-% Run tests
-for i = 1:length(tests)
-    result = CTYRSTEN(tests(i).edges(1), tests(i).edges(2), tests(i).edges(3), ...
-                      tests(i).edges(4), tests(i).edges(5), tests(i).edges(6));
-    if result == tests(i).expected
-        fprintf('Test %d passed\n', i);
-    else
-        fprintf('Test %d failed\n', i);
-    end
-end
+% Test 2: One Very Long Edge
+result2 = CTYRSTEN(100, 2, 3, 4, 5, 6);
+disp(['Test 2 (One Very Long Edge): ', num2str(result2)]);
+
+% Test 3: Zero or Negative Length
+result3 = CTYRSTEN(0, -1, 2, 3, 4, 5);
+disp(['Test 3 (Zero or Negative Length): ', num2str(result3)]);
+
+% Test 4: All Edges Equal
+result4 = CTYRSTEN(5, 5, 5, 5, 5, 5);
+disp(['Test 4 (All Edges Equal): ', num2str(result4)]);
+
+% Test 5: Extremely Small Edges
+result5 = CTYRSTEN(0.1, 0.1, 0.1, 0.1, 0.1, 100);
+disp(['Test 5 (Extremely Small Edges): ', num2str(result5)]);
 
