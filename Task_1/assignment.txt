@@ -1,0 +1,2 @@
+The CTYRSTEN function, which from the six edge lengths a,b,c,d,e, determines whether a quadrilateral exists, i.e. returns true or false.
+
