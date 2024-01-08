@@ -1,22 +1,18 @@
 function sum_inv_primes = INV_PRIME_SUM(n)
 
-    if n <= 0
+    if n <= 0 || n ~= floor(n)
         error('n must be a positive integer');
     end
 
-    if n == 1
-        m = 2;
-    else
-        m = ceil(n * (log(n) + log(log(n)))); 
+    prime_candidate = 2;
+    primes_array = [];
+    while length(primes_array) < n
+        if isprime(prime_candidate)
+            primes_array(end + 1) = prime_candidate;
+        end
+        prime_candidate = prime_candidate + 1;
     end
 
-    prime_list = primes(m);
-
-    if length(prime_list) < n
-        error('Estimation error: Not enough primes generated.');
-    end
-
-    primes_array = prime_list(1:n);
     sum_inv_primes = sum(1 ./ primes_array);
 end
 

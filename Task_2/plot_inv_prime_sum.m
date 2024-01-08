@@ -4,13 +4,13 @@ function PLOT_INV_PRIME_SUM(nmax)
         error('nmax must be a positive integer.');
     end
 
-	sums = zeros(1, nmax);
+    sums = zeros(1, nmax); % Pre-allocate array for performance
 
     for n = 1:nmax
         sums(n) = INV_PRIME_SUM(n);
     end
 
-    figure; 
+    figure;
     loglog(1:nmax, sums, '-o');
     title('Sum of Inverse of First N Prime Numbers');
     xlabel('Number of Prime Numbers (N)');
