@@ -1,7 +1,10 @@
-function exists = CTYRSTEN(a, b, c, d, e, f)   
-    exists = (a + b > c) && (a + c > b) && (b + c > a) && ...
-             (a + d > e) && (a + e > d) && (d + e > a) && ...
-             (b + d > f) && (b + f > d) && (d + f > b) && ...
-             (c + e > f) && (c + f > e) && (e + f > c);
+function isValid = CTYRSTEN(a, b, c, d, e, f)
+
+    if (a + b + c > d) && (a + b + d > c) && (a + c + d > b) && (b + c + d > a)
+
+        isValid = true;
+    else
+        isValid = false;
+    end
 end
 
