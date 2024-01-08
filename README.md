@@ -10,12 +10,12 @@ As in the article I created [Docker file](https://github.com/Yggdrasill501/octav
 The rest of the project and the mathlab tasks are devided to folders with tests and source files.
 The [INIT](https://github.com/Yggdrasill501/octave_matlab_tasks/blob/main/INIT.sh) file is there in case of requriments.
 
-# Task One 
+# First Task  
 *The [CTYRSTEN](https://github.com/Yggdrasill501/octave_matlab_tasks/blob/main/Task_1/CTYRSTEN.m) function, which from the six edge lengths a,b,c,d,e, determines whether a quadrilateral exists, i.e. returns true or false*
 
 First task I devided into multiple files
 
-## File with Fuction 
+## File with fuction CTYRSTEN 
 [CTYRSTEN](https://github.com/Yggdrasill501/matlab_math_tasks/blob/main/Task_1/CTYRSTEN.m)
 ```
 function exists = CTYRSTEN(a, b, c, d, e, f)
@@ -36,7 +36,7 @@ end
 Where the lengths of any three edges must be greater than the length of the fourth edge, and if that is possible it return TRUE, in the other case FALSE
 
 ## File with Result run 
-[result](https://github.com/Yggdrasill501/matlab_math_tasks/blob/main/Task_1/result.m)
+[Result](https://github.com/Yggdrasill501/matlab_math_tasks/blob/main/Task_1/result.m)
 
 ```
 result = CTYRSTEN(1, 2, 3, 4, 5, 6);
@@ -46,7 +46,7 @@ disp(result);
 Simple result file that display the the result.
 
 ## Test file
-[test](https://github.com/Yggdrasill501/matlab_math_tasks/blob/main/Task_1/test.m)
+[Test](https://github.com/Yggdrasill501/matlab_math_tasks/blob/main/Task_1/test.m)
 
 
 ```
