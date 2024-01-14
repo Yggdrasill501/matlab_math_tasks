@@ -88,5 +88,5 @@ Testing PLOT_INV_PRIME_SUM Function
 Plot generated for the first 20 prime numbers.
 ```
 and plot:
-![plot](plot.png}
+![plot](plot.png)
 
