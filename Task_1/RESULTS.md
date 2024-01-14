@@ -33,6 +33,12 @@ disp(result);
 
 Simple result file that display the the result.
 
+After run returns:
+```
+octave:1> result
+1
+```
+
 ## Test file
 [Test Ctyrsten](https://github.com/Yggdrasill501/matlab_math_tasks/blob/main/Task_1/test_ctyrsten.m)
 
@@ -59,3 +65,14 @@ disp(['Test 5 (Extremely Small Edges): ', num2str(result5)]);
 ```
 
 Where each test as the comments suggest add test for every edge case that can happen with CTRYRSTEN function.
+
+After run returns:
+```
+octave:2> test_ctyrsten
+Test 1 (Valid Quadrilateral): 1
+Test 2 (One Very Long Edge): 0
+Test 3 (Zero or Negative Length): 0
+Test 4 (All Edges Equal): 1
+Test 5 (Extremely Small Edges): 0
+```
+
