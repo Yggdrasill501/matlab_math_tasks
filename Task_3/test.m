@@ -4,7 +4,6 @@ try
     h = CYCLOID(testRadius);
     disp('CYCLOID function executed successfully.');
 
-    % Check the size of the data arrays
     X = get(h, 'XData');
     Y = get(h, 'YData');
     Z = get(h, 'ZData');
@@ -31,4 +30,3 @@ try
 catch err
     disp('Error occurred while executing CYCLOID function:');
     disp(err.message);
-end
