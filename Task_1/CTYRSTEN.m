@@ -11,4 +11,3 @@ function exists = CTYRSTEN(a, b, c, d, e, f)
         exists = false;
     end
 end
-
